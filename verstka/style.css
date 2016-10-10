@@ -98,15 +98,13 @@ img{
 /* --------------- /базовые настройки ---------*/
 /* GENERAL ------------------------------------------------------------*/
 header{
-  background-image: url(images/Header.png) center center no-repeat;
+	background-image: url(images/Header.png);
   text-align: center;
   background-size: cover;
   padding: 135px 30px;
   background-attachment:fixed;
 }
-header{
-  background-image: url(images/Header.png);
-}
+
 .logo {
     /*border: 1px solid black;*/
     width: 152px;
@@ -140,7 +138,9 @@ font-size: 11px;
 color: #333333;
 margin: 1em;
 }
+/*    <!-- ends nav --> */
 
+/*-- hgroup -->*/
 hgroup h1 {
     /* God is in the detail: */
     /* font-family: 'Lato', sans-serif; */
@@ -225,3 +225,43 @@ figure img{
     position: absolute;
     z-index: 100;
 }
+#products {
+    margin: 350px 0 0 -30px;
+    border: 1px solid white;
+    height: 888px;
+    background: #FFFFFF;
+    text-align: center;
+}
+#products h1 {
+		font-family: 'Lato', sans-serif;
+		float: right;
+		position: absolute	;
+		margin: 100px 0 0 130px;
+    font-size: 33px;
+    color: #1D1D1D;
+    letter-spacing: 0px;
+	}
+	.gallery {
+		margin: 190px -500px 50px 130px;
+	    width: 83%;
+	    height: 500px;
+	    border: 1px solid none;
+
+	}
+
+	.thumb1 img {
+	    max-width: 490px;
+	    float: left;
+  	  margin: 0 15px 15px 0;
+	}
+	.thumb2 img {
+	    max-width: 237px;
+	    float: left;
+	    margin-right: 15px;
+	}
+	.thumb3 img {
+			max-width: 237px;
+			float: left;
+			margin-right: 15px;
+			margin-top: 15px;
+	}
