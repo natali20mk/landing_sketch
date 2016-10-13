@@ -226,9 +226,8 @@ figure img{
     z-index: 100;
 }
 #products {
-    margin: 350px 0 0 -30px;
     border: 1px solid white;
-    height: 888px;
+    height: 845px;
     background: #FFFFFF;
     text-align: center;
 }
@@ -242,7 +241,7 @@ figure img{
     letter-spacing: 0px;
 	}
 	.gallery {
-		margin: 190px -500px 50px 130px;
+			margin: 190px -500px 50px 130px;
 	    width: 83%;
 	    height: 500px;
 	    border: 1px solid none;
@@ -265,3 +264,110 @@ figure img{
 			margin-right: 15px;
 			margin-top: 15px;
 	}
+#status{
+	height: 334px;
+	background-color: black;
+	font-family: 'Lato', sans-serif;
+	margin-left: -30px;
+
+}
+.up{
+	display:inline-block;
+	border:1px solid black;
+	text-align: center;
+	margin: 150px 150px 0 150px;
+	color: #FFFFFF;
+	font-size: 14px;
+}
+.down{
+	font-size: 40px;
+}
+#subscribe{
+	height: 100%;
+	border:1px solid none;
+	background: #FFFFFF;
+}
+.email{
+  font-family: 'Lato', sans-serif;
+  float: right;;
+  margin: 90px 100px 67px;
+}
+.email h1{
+  font-size: 33px;
+  color: #1D1D1D;
+  letter-spacing: 0px;
+
+}
+.email h3 {
+  font-size: 20px;
+  color: #666666;
+  letter-spacing: 0px;
+  line-height: 30px;
+  padding: 30px 0 30px;
+  font-weight: lighter;
+}
+.email h5{
+  font-size: 14px;
+  color: #666666;
+  line-height: 24px;
+  overflow: hidden;
+}
+.email input{
+	background: #FFFFFF;
+	border: 1px solid #1D1D1D;
+	border-radius: 100px;
+	font-size: 12px;
+	color: #939393;
+	letter-spacing: 0px;
+	line-height: 30px;
+	margin-top: 40px;
+}
+#partners{
+	border: 1px solid none;
+}
+.logos {
+    height: 26px;
+    width: 1059px;
+    border: 1px solid none;
+    margin-left: -59px;
+    padding: 150px;
+}
+
+.logos img{
+	height: 28px;
+	float: left;
+	margin-left: 59px;
+
+}
+footer{
+	height: 299px;
+	background-color: black;
+}
+.logofooter img {
+		display:inline-block;
+		float: left;;
+    padding: 120px 0 0 130px;
+}
+.adress{
+display:inline-block;
+font-family: 'Lato', sans-serif;
+font-size: 14px;
+color: #FFFFFF;
+letter-spacing: 0px;
+line-height: 24px;
+padding: 120px 0 0 130px;
+float: left;
+}
+.soc img {
+    float: right;
+    padding: 120px 130px 0 130px;
+}
+.cop {
+    position: absolute;
+    padding: 259px 0 10px 36%;
+    opacity: 0.44;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    color: #FFFFFF;
+    letter-spacing: 0px;
+}
