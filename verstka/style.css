@@ -102,7 +102,7 @@ header{
   text-align: center;
   background-size: cover;
   padding: 135px 30px;
-  background-attachment:fixed;
+  /* background-attachment:fixed;*/
 }
 
 .logo {
@@ -211,27 +211,28 @@ article h5{
 
 }
 figure img{
-    height: 250px;
+	max-width: 100%;
+
 }
 
 #img1 {
     position: absolute;
     margin: 0 0 0 830px;
-    z-index: 1000;
+    z-index: 2;
   }
 
 #img2 {
     margin: -150px 0 0 650px;
     position: absolute;
-    z-index: 100;
+    z-index: 1;
 }
-#products {
+.products {
     border: 1px solid white;
     height: 845px;
     background: #FFFFFF;
     text-align: center;
 }
-#products h1 {
+.products h1 {
 		font-family: 'Lato', sans-serif;
 		float: right;
 		position: absolute	;
@@ -240,30 +241,32 @@ figure img{
     color: #1D1D1D;
     letter-spacing: 0px;
 	}
-	.gallery {
-			margin: 190px -500px 50px 130px;
-	    width: 83%;
-	    height: 500px;
-	    border: 1px solid none;
-
+	.thumb1 {
+    position: absolute;
+    margin: 180px 0 0 10%;
+    z-index: 3;
+}
+	.thumb2{
+		position: absolute;
+		margin: 180px 0 0 635px;
+		z-index: 4;
+	}
+	.thumb3{
+		position: absolute;
+		margin: 180px 0 0 895px;
+		z-index: 4;
+	}
+	.thumb4{
+		position: absolute;
+		margin: 440px 0 0 635px;
+		z-index: 5;
+	}
+	.thumb5{
+		position: absolute;
+		margin: 440px 0 0 895px;
+		z-index: 5;
 	}
 
-	.thumb1 img {
-	    max-width: 490px;
-	    float: left;
-  	  margin: 0 15px 15px 0;
-	}
-	.thumb2 img {
-	    max-width: 237px;
-	    float: left;
-	    margin-right: 15px;
-	}
-	.thumb3 img {
-			max-width: 237px;
-			float: left;
-			margin-right: 15px;
-			margin-top: 15px;
-	}
 #status{
 	height: 334px;
 	background-color: black;
@@ -271,14 +274,19 @@ figure img{
 	margin-left: -30px;
 
 }
-.up{
-	display:inline-block;
-	border:1px solid black;
-	text-align: center;
-	margin: 150px 150px 0 150px;
-	color: #FFFFFF;
-	font-size: 14px;
-}
+
+.up {
+    /* position: absolute; */
+    display: inline-block;
+    border: 1px solid black;
+    text-align: center;
+    padding-top: 10%;
+    padding-left: 20%;
+    /* margin: 150px 150px 0 150px; */
+    color: #FFFFFF;
+    font-size: 14px;
+	}
+
 .down{
 	font-size: 40px;
 }
@@ -287,10 +295,21 @@ figure img{
 	border:1px solid none;
 	background: #FFFFFF;
 }
-.email{
-  font-family: 'Lato', sans-serif;
-  float: right;;
-  margin: 90px 100px 67px;
+#subscribe img {
+    margin-top: -80px;
+    float: left;
+    position: absolute;
+    z-index: 100;
+}
+.email {
+    font-family: 'Lato', sans-serif;
+    position: relative;
+    z-index: 200;
+    background-color: white;
+    opacity: 0.8;
+    padding: 25px;
+    margin-top: 80px;
+    margin-left: 55%;
 }
 .email h1{
   font-size: 33px;
@@ -323,14 +342,17 @@ figure img{
 	margin-top: 40px;
 }
 #partners{
+	height: 100%;
 	border: 1px solid none;
+		background: #FFFFFF;
 }
 .logos {
     height: 26px;
     width: 1059px;
     border: 1px solid none;
     margin-left: -59px;
-    padding: 150px;
+    padding: 140px;
+		margin-top: 90px;
 }
 
 .logos img{
